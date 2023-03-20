@@ -8,8 +8,6 @@ import {
 import Signin from "./components/Signin";
 import Signup from "./components/Signup";
 
-console.log("11111");
-
 const generateClassName = createGenerateClassName({
 	productionPrefix: "au",
 });

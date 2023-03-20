@@ -8,8 +8,6 @@ import {
 import Landing from "./components/Landing";
 import Pricing from "./components/Pricing";
 
-console.log("1111");
-
 const generateClassName = createGenerateClassName({
 	productionPrefix: "ma",
 });
