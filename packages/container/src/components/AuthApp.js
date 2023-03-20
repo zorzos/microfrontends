@@ -16,7 +16,7 @@ export default ({ onSignIn }) => {
 			onSignIn,
 		});
 
-		history.listen(onParentNavigate);
+		if (onParentNavigate) history.listen(onParentNavigate);
 	}, []);
 
 	return <div ref={ref} />;
